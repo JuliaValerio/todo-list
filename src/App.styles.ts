@@ -1,15 +1,14 @@
 import styled from 'styled-components';
 
-export const Container = styled.div`
-    background-color: #17181F;
-    color: #797A81;
+export const Main = styled.div`
+    background-color: #1b1b1b;
     min-height: 100vh;
 `;
 
-export const Area = styled.div`
+export const Container = styled.div`
     margin: auto;
     max-width: 980px;
-    padding: 10px;
+    padding: 10px;   
 `;
 
 export const Header = styled.h1`
